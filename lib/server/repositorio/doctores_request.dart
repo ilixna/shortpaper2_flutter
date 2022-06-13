@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:shortpaper2_flutter/modelo/doctor.dart';
-import 'package:shortpaper2_flutter/server/abstract_doctores_request.dart';
+import 'package:shortpaper2_flutter/server/repositorio/abstract_doctores_request.dart';
 import 'package:http/http.dart' as http;
 
 class DoctoresRequest implements BusquedaGenerica<Doctor, String> {
