@@ -1,4 +1,4 @@
- import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:shortpaper2_flutter/modelo/doctor.dart';
 import 'package:shortpaper2_flutter/server/repositorio/abstract_doctores_request.dart';
 
