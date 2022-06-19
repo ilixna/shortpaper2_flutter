@@ -14,7 +14,13 @@ class _ListaCartaState extends State<ListaCarta> {
   @override
   Widget build(BuildContext context) {
     return Card(
-      elevation: 6,
+      elevation: 9,
+      margin: const EdgeInsets.only(bottom: 15),
+      color: const Color.fromRGBO(255, 255, 255, 2),
+        shape: const RoundedRectangleBorder(
+          side: const BorderSide(color: Color.fromRGBO(193, 193, 193, 1), width: 2),
+          borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(10), bottomRight: Radius.circular(30), topRight: Radius.circular(10), topLeft: Radius.circular(10))
+        ),
       child: Container(
         padding: const EdgeInsets.all(20),
         child: SizedBox(

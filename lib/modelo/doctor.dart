@@ -1,4 +1,4 @@
-import 'package:shortpaper2_flutter/modelo//especialidad.dart';
+import 'package:shortpaper2_flutter/modelo/especialidad.dart';
 import 'package:shortpaper2_flutter/modelo/genero.dart';
 
 class Doctor {
