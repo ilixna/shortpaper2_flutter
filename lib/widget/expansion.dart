@@ -13,7 +13,7 @@ class Expansion extends StatelessWidget {
           title: Text(
             data!.title,
             style: TextStyle(
-              color: Theme.of(context).primaryColor,
+              color: Color.fromRGBO(23, 100, 165, 1),
               fontWeight: FontWeight.bold,
             ),
           ),

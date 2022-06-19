@@ -23,7 +23,7 @@ class _BarraDeBusquedaState extends State<BarraDeBusqueda> {
     return TextFormField(
       onChanged: (value){_filtrarDoctorPorEspecialidad(value, context);},
       decoration: const InputDecoration(
-          border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(30)),),
+          border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(20)),),
           contentPadding: EdgeInsets.all(10),
           hintText: 'Buscar',
           icon: Icon(Icons.person_search)
