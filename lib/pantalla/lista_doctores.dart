@@ -71,7 +71,7 @@ class _ListaDoctoresState extends State<ListaDoctores> {
                           const Divider(
                             height: 30,
                           ),
-                          doctorData.doctores.isEmpty ? const Center(child: Text('No hay registros'),):
+                          doctorData.doctores.isEmpty ? const Center(child: Text('No existen doctores con esa especialidad'),):
                           Expanded(
                             child: ListView.builder(
                                 itemCount: doctorData.doctores.length,
